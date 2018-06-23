@@ -1,0 +1,24 @@
+{"message":"An error occurred during startup","stack":"Error: An error occurred during startup\n    at Object.<anonymous> (C:\\users\\user\\documents\\nodejs\\vidly\\index.js:27:7)\n    at Module._compile (internal/modules/cjs/loader.js:702:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)\n    at Module.load (internal/modules/cjs/loader.js:612:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:543:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)\n    at startup (internal/bootstrap/node.js:238:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)","level":"error","timestamp":"2018-06-22T18:06:13.957Z"}
+{"message":"An error occurred during startup","stack":"Error: An error occurred during startup\n    at Object.<anonymous> (C:\\users\\user\\documents\\nodejs\\vidly\\index.js:27:7)\n    at Module._compile (internal/modules/cjs/loader.js:702:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:713:10)\n    at Module.load (internal/modules/cjs/loader.js:612:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:551:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:543:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:744:10)\n    at startup (internal/bootstrap/node.js:238:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:572:3)","level":"error","timestamp":"2018-06-22T18:24:50.280Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T18:45:45.578Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T18:47:39.516Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T18:56:04.364Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T18:57:23.203Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T18:57:24.350Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T18:59:06.639Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T18:59:07.907Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:01:51.176Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:01:52.315Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:06:35.426Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:06:36.547Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:07:37.005Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:07:38.141Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:10:17.256Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:10:18.405Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:11:07.589Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:11:08.752Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:12:36.523Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:13:54.799Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:13:55.948Z"}
+{"level":"info","message":"Listening on port 3000","timestamp":"2018-06-22T19:16:50.875Z"}
+{"level":"info","message":"connected to MongoDB","timestamp":"2018-06-22T19:16:52.034Z"}

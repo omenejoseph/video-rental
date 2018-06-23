@@ -1,19 +1,18 @@
 const express = require ('express');
 const jwt = require('jsonwebtoken');
 const auth = require('../middleware/auth');
-const asyncMiddleware = require('../middleware/async');
 const _ = require('lodash');
 const bcrypt = require('bcrypt');
 const { User, validateData } = require('../models/users');
 const router = express.Router();
 
 
-router.get('/me', auth, asyncMiddleware(async (req, res, next)=>{
+router.get('/me', auth,  async (req, res, next)=>{
     const user = await User.findById(req.user._id).select('-password');
     res.send(user);
-}));
+});
 
-router.post('/', asyncMiddleware(async (req, res)=>{
+router.post('/',  async (req, res)=>{
 
     const { error } = validateData(req.body);
     if(error) return res.status(400).send(error.details[0].message);
@@ -32,6 +31,6 @@ router.post('/', asyncMiddleware(async (req, res)=>{
         const token = user.generateAuthToken();
         res.header('x-auth-token', token).send(_.pick(user, ['name', 'email']));
   
-}));
+});
 
 module.exports = router;

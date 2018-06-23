@@ -6,9 +6,8 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { User } = require('../models/users');
 const router = express.Router();
-const asyncMiddleware = require('../middleware/async');
 
-router.post('/', asyncMiddleware(async (req, res)=>{
+router.post('/',  async (req, res)=>{
 
     const { error } = validateData(req.body);
     if(error) return res.status(400).send(error.details[0].message);
@@ -21,7 +20,7 @@ router.post('/', asyncMiddleware(async (req, res)=>{
     
     res.send(user.generateAuthToken()); 
       
-}));
+});
 
 function validateData(data){
 
