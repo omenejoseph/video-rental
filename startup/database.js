@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const winston = require('winston');
+const config = require('config');
 
 module.exports = ()=>{
 
@@ -8,6 +9,6 @@ module.exports = ()=>{
     //     process.exit(1);
     // }
 
-    mongoose.connect('mongodb://localhost/vidly')
-    .then(()=>winston.info('connected to MongoDB'));
+    mongoose.connect(config.get('db'))
+    .then(()=>winston.info('connected to MongoDB')); 
 }
